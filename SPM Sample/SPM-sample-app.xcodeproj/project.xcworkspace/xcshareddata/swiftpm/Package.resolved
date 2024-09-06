@@ -1,12 +1,12 @@
 {
-  "originHash" : "ddeacdbff10332cbd9d6fba43cdbe196b17128ff911d2ec3648f53126b0fd758",
+  "originHash" : "e0eeadbd627276741d3fa8a02404c66c334abcefb33f6d3c4d92f893b20166b2",
   "pins" : [
     {
       "identity" : "apple-sdk",
       "kind" : "remoteSourceControl",
-      "location" : "git@github.com:ContentSquare/apple-sdk.git",
+      "location" : "https://github.com/ContentSquare/apple-sdk",
       "state" : {
-        "revision" : "aeaca40a0519cb726b525f3347e043a31cb40ab6",
+        "revision" : "03b1c0dd98195b3e6295d53e5271d94e0ae53e4f",
         "version" : "0.1.0"
       }
     },
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "dc702b5bf9eb5710e56f1d5ad917cac0956bc795",
-        "version" : "4.35.1"
+        "revision" : "6dd807c1f2fcb9f3c6df1bfb77e211fa71035524",
+        "version" : "4.36.0"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/heap/heap-ios-autocapture-sdk.git",
       "state" : {
-        "revision" : "93670ae3999db0f6a5aac8fe94d1933e01f5ad15",
-        "version" : "0.5.0"
+        "revision" : "edb57b7cb416d97e1be1b74a4ca1124e120ed7bc",
+        "version" : "0.7.0"
       }
     },
     {
@@ -47,12 +47,21 @@
       }
     },
     {
+      "identity" : "heap-notification-autocapture-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/heap/heap-notification-autocapture-sdk.git",
+      "state" : {
+        "revision" : "c467493f793e04e0aa9a67c12e4b014843ab261e",
+        "version" : "0.7.0"
+      }
+    },
+    {
       "identity" : "heap-swift-core-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/heap/heap-swift-core-sdk.git",
       "state" : {
-        "revision" : "cc303a39f05829cef6425ae7f09dbcbb3e7a5ef7",
-        "version" : "0.7.0"
+        "revision" : "79bac91c825bb71a0f229a32bef140f214837c9d",
+        "version" : "0.7.1"
       }
     },
     {
