@@ -1,11 +1,11 @@
 PODS:
-  - ContentsquareSDK (0.2.2):
-    - CS_iOS_SDK_STATIC (= 4.37.2)
+  - ContentsquareSDK (0.3.0):
+    - CS_iOS_SDK_STATIC (= 4.38.0)
     - HeapContentsquareIntegrationSDK_static (= 0.7.1)
     - HeapIOSAutocapture (= 0.7.0)
     - HeapNotificationAutocapture (= 0.7.0)
     - HeapSwiftCore (= 0.7.2)
-  - CS_iOS_SDK_STATIC (4.37.2):
+  - CS_iOS_SDK_STATIC (4.38.0):
     - CSCrashReporter (= 1.0.0)
     - SwiftProtobuf (<= 1.26.0)
   - CSCrashReporter (1.0.0)
@@ -23,7 +23,7 @@ PODS:
   - SwiftProtobuf (1.26.0)
 
 DEPENDENCIES:
-  - ContentsquareSDK (= 0.2.2)
+  - ContentsquareSDK (= 0.3.0)
 
 SPEC REPOS:
   trunk:
@@ -38,8 +38,8 @@ SPEC REPOS:
     - SwiftProtobuf
 
 SPEC CHECKSUMS:
-  ContentsquareSDK: a9f280fc28fef960cfb15e02ab61144e4c2caa23
-  CS_iOS_SDK_STATIC: 7950527d4e3ff747d49bc763e8f8df2534d8583e
+  ContentsquareSDK: 8a841f5358ec4c2028ae81c21d4b18880914d2fa
+  CS_iOS_SDK_STATIC: 4b6bba3f26a57e05f316960a3bb019c2e54a5e9b
   CSCrashReporter: 1494c8b8c805d0b3cdb62f2b044f2606a7d4a391
   HeapContentsquareIntegrationSDK_static: 4e49ebe537c3da9ac251d61ca53ca4b970794a38
   HeapIOSAutocapture: 659f4e6b5a9b1abe610fd68d329af6006b38049b
@@ -48,6 +48,6 @@ SPEC CHECKSUMS:
   HeapSwiftCoreInterfaces: 50a3af06d9794b32fd5f2e00deca27dce61213ad
   SwiftProtobuf: 5e8349171e7c2f88f5b9e683cb3cb79d1dc780b3
 
-PODFILE CHECKSUM: 01ee42bfbdfefe7ae0dd64323db4339e226c8ef6
+PODFILE CHECKSUM: cecde8c0558d34ce0831bc749af7ff9d0f85ed76
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.14.2
