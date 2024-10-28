@@ -525,7 +525,7 @@
 			repositoryURL = "https://github.com/ContentSquare/apple-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.2;
+				minimumVersion = 0.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
