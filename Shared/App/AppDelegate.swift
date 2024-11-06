@@ -8,7 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         ErrorAnalysis.setURLMaskingPatterns([
-            "https://httpstatus-dev.eu-west-1.csq.fr/:status_code/person/:person_id/store/:store_id"
+            "https://httpstatus-mgmt.eu-west-1.csq.fr/:status_code/person/:person_id/store/:store_id"
         ])
         Contentsquare.onSessionReplayLinkChange() { newLink in
             print(newLink)
