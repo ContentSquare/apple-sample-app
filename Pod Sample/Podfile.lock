@@ -1,14 +1,15 @@
 PODS:
-  - ContentsquareSDK (0.3.0):
-    - CS_iOS_SDK_STATIC (= 4.38.0)
+  - ContentsquareSDK (0.4.0):
+    - CS_iOS_SDK_STATIC (= 4.39.0)
     - HeapContentsquareIntegrationSDK_static (= 0.7.1)
     - HeapIOSAutocapture (= 0.7.0)
     - HeapNotificationAutocapture (= 0.7.0)
     - HeapSwiftCore (= 0.7.2)
-  - CS_iOS_SDK_STATIC (4.38.0):
-    - CSCrashReporter (= 1.0.0)
-    - SwiftProtobuf (<= 1.26.0)
-  - CSCrashReporter (1.0.0)
+  - CS_iOS_SDK_STATIC (4.39.0):
+    - CSCrashReporter (= 1.0.1)
+    - CSSwiftProtobuf (= 1.28.2)
+  - CSCrashReporter (1.0.1)
+  - CSSwiftProtobuf (1.28.2)
   - HeapContentsquareIntegrationSDK_static (0.7.1):
     - CS_iOS_SDK_STATIC (~> 4.33)
     - HeapSwiftCore (~> 0.7)
@@ -20,16 +21,17 @@ PODS:
     - HeapSwiftCoreInterfaces (= 0.6.1)
     - SwiftProtobuf (~> 1.6)
   - HeapSwiftCoreInterfaces (0.6.1)
-  - SwiftProtobuf (1.26.0)
+  - SwiftProtobuf (1.28.2)
 
 DEPENDENCIES:
-  - ContentsquareSDK (= 0.3.0)
+  - ContentsquareSDK (= 0.4.0)
 
 SPEC REPOS:
   trunk:
     - ContentsquareSDK
     - CS_iOS_SDK_STATIC
     - CSCrashReporter
+    - CSSwiftProtobuf
     - HeapContentsquareIntegrationSDK_static
     - HeapIOSAutocapture
     - HeapNotificationAutocapture
@@ -38,16 +40,17 @@ SPEC REPOS:
     - SwiftProtobuf
 
 SPEC CHECKSUMS:
-  ContentsquareSDK: 8a841f5358ec4c2028ae81c21d4b18880914d2fa
-  CS_iOS_SDK_STATIC: 4b6bba3f26a57e05f316960a3bb019c2e54a5e9b
-  CSCrashReporter: 1494c8b8c805d0b3cdb62f2b044f2606a7d4a391
+  ContentsquareSDK: 4b8d6c0ab674cfc90a2a25aef1c14d2d0e95d489
+  CS_iOS_SDK_STATIC: 413878f33599a8149a2ac7df1c6c0ed85fde1579
+  CSCrashReporter: bcd93ebf9abaf6e3d8ee4494ab0d630b6750d338
+  CSSwiftProtobuf: beced9eecd504dbc1ef9b09e537c06300aed6631
   HeapContentsquareIntegrationSDK_static: 4e49ebe537c3da9ac251d61ca53ca4b970794a38
   HeapIOSAutocapture: 659f4e6b5a9b1abe610fd68d329af6006b38049b
   HeapNotificationAutocapture: 2d70dcad0e512907125cb5db5b2485a87b966170
   HeapSwiftCore: ff3150ad2c1e214b17e6ab5c6652f768819f7f08
   HeapSwiftCoreInterfaces: 50a3af06d9794b32fd5f2e00deca27dce61213ad
-  SwiftProtobuf: 5e8349171e7c2f88f5b9e683cb3cb79d1dc780b3
+  SwiftProtobuf: 4dbaffec76a39a8dc5da23b40af1a5dc01a4c02d
 
-PODFILE CHECKSUM: cecde8c0558d34ce0831bc749af7ff9d0f85ed76
+PODFILE CHECKSUM: 8576da4723281654c10e2c9bb835bf98a8fa3b61
 
-COCOAPODS: 1.14.2
+COCOAPODS: 1.16.2
