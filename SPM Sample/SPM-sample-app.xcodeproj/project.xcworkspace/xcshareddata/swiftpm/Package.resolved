@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/apple-sdk",
       "state" : {
-        "revision" : "22ad9b0a4abf8e7f38934b7b026db694a5c3e3b2",
-        "version" : "0.4.0"
+        "revision" : "d6ffa9007b254cce0f52b31f0a4192d9e5b08af2",
+        "version" : "0.5.0"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "4f038861b6bb592a90b51fc8bfeb3c86b1d63fcd",
-        "version" : "4.39.0"
+        "revision" : "9f09f55713240cc12cc0b41f36fd1cd83389da62",
+        "version" : "4.40.0"
       }
     },
     {
@@ -42,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/heap/heap-ios-autocapture-sdk.git",
       "state" : {
-        "revision" : "edb57b7cb416d97e1be1b74a4ca1124e120ed7bc",
-        "version" : "0.7.0"
+        "revision" : "33b6f401681f53dbd18c9219e727557d8fb0b46a",
+        "version" : "0.8.0"
       }
     },
     {
@@ -51,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/heap/heap-ios-cs-integration-sdk.git",
       "state" : {
-        "revision" : "89e8927eb3819be888f57453836dcea5b4341a90",
-        "version" : "0.7.1"
+        "revision" : "7cf5ce318b928757b819999be9f4ceee5237886b",
+        "version" : "0.8.0"
       }
     },
     {
@@ -60,8 +60,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/heap/heap-notification-autocapture-sdk.git",
       "state" : {
-        "revision" : "c467493f793e04e0aa9a67c12e4b014843ab261e",
-        "version" : "0.7.0"
+        "revision" : "582fc7c48fd666d3ad29d35274c1402299d9e58f",
+        "version" : "0.8.0"
       }
     },
     {
@@ -69,17 +69,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/heap/heap-swift-core-sdk.git",
       "state" : {
-        "revision" : "c4a7608fff7a11ab0fe09cfe170a86937fb935da",
-        "version" : "0.7.2"
-      }
-    },
-    {
-      "identity" : "swift-protobuf",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-protobuf.git",
-      "state" : {
-        "revision" : "9f0c76544701845ad98716f3f6a774a892152bcb",
-        "version" : "1.26.0"
+        "revision" : "7d315b7c0218ab2f3aa57891748ebbdd7240d68b",
+        "version" : "0.8.0"
       }
     }
   ],
