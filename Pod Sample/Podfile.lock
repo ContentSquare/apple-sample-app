@@ -1,30 +1,27 @@
 PODS:
-  - ContentsquareSDK (0.4.0):
-    - CS_iOS_SDK_STATIC (= 4.39.0)
-    - HeapContentsquareIntegrationSDK_static (= 0.7.1)
-    - HeapIOSAutocapture (= 0.7.0)
-    - HeapNotificationAutocapture (= 0.7.0)
-    - HeapSwiftCore (= 0.7.2)
-  - CS_iOS_SDK_STATIC (4.39.0):
+  - ContentsquareSDK (0.5.1):
+    - CS_iOS_SDK_STATIC (= 4.40.1)
+    - HeapContentsquareIntegrationSDK_static (= 0.8.0)
+    - HeapIOSAutocapture (= 0.8.0)
+    - HeapNotificationAutocapture (= 0.8.0)
+    - HeapSwiftCore (= 0.8.0)
+  - CS_iOS_SDK_STATIC (4.40.1):
     - CSCrashReporter (= 1.0.1)
     - CSSwiftProtobuf (= 1.28.2)
   - CSCrashReporter (1.0.1)
   - CSSwiftProtobuf (1.28.2)
-  - HeapContentsquareIntegrationSDK_static (0.7.1):
-    - CS_iOS_SDK_STATIC (~> 4.33)
-    - HeapSwiftCore (~> 0.7)
-  - HeapIOSAutocapture (0.7.0):
-    - HeapSwiftCore (~> 0.7)
-  - HeapNotificationAutocapture (0.7.0):
-    - HeapSwiftCore (~> 0.7)
-  - HeapSwiftCore (0.7.2):
-    - HeapSwiftCoreInterfaces (= 0.6.1)
-    - SwiftProtobuf (~> 1.6)
-  - HeapSwiftCoreInterfaces (0.6.1)
-  - SwiftProtobuf (1.28.2)
+  - HeapContentsquareIntegrationSDK_static (0.8.0):
+    - CS_iOS_SDK_STATIC (~> 4.39)
+    - HeapSwiftCore (~> 0.8)
+  - HeapIOSAutocapture (0.8.0):
+    - HeapSwiftCore (~> 0.8)
+  - HeapNotificationAutocapture (0.8.0):
+    - HeapSwiftCore (~> 0.8)
+  - HeapSwiftCore (0.8.0):
+    - CSSwiftProtobuf (= 1.28.2)
 
 DEPENDENCIES:
-  - ContentsquareSDK (= 0.4.0)
+  - ContentsquareSDK (= 0.5.1)
 
 SPEC REPOS:
   trunk:
@@ -36,21 +33,17 @@ SPEC REPOS:
     - HeapIOSAutocapture
     - HeapNotificationAutocapture
     - HeapSwiftCore
-    - HeapSwiftCoreInterfaces
-    - SwiftProtobuf
 
 SPEC CHECKSUMS:
-  ContentsquareSDK: 4b8d6c0ab674cfc90a2a25aef1c14d2d0e95d489
-  CS_iOS_SDK_STATIC: 413878f33599a8149a2ac7df1c6c0ed85fde1579
+  ContentsquareSDK: f6fde190951c87a8923b065c05ec4e700262d29d
+  CS_iOS_SDK_STATIC: 9c9b2f9098464721e6d76f691544bcfb9a39e7bf
   CSCrashReporter: bcd93ebf9abaf6e3d8ee4494ab0d630b6750d338
   CSSwiftProtobuf: beced9eecd504dbc1ef9b09e537c06300aed6631
-  HeapContentsquareIntegrationSDK_static: 4e49ebe537c3da9ac251d61ca53ca4b970794a38
-  HeapIOSAutocapture: 659f4e6b5a9b1abe610fd68d329af6006b38049b
-  HeapNotificationAutocapture: 2d70dcad0e512907125cb5db5b2485a87b966170
-  HeapSwiftCore: ff3150ad2c1e214b17e6ab5c6652f768819f7f08
-  HeapSwiftCoreInterfaces: 50a3af06d9794b32fd5f2e00deca27dce61213ad
-  SwiftProtobuf: 4dbaffec76a39a8dc5da23b40af1a5dc01a4c02d
+  HeapContentsquareIntegrationSDK_static: 5ed2ea780a81a85ede9a2d0239ef651cc7ac9b5a
+  HeapIOSAutocapture: aeeb09f1f905c6528041033086902c298763a241
+  HeapNotificationAutocapture: bf4042231d73630ad2e180273cdfb9e4e457a39a
+  HeapSwiftCore: 03c11bd83f5502b0f8160504406e8beb1a3606f1
 
-PODFILE CHECKSUM: 8576da4723281654c10e2c9bb835bf98a8fa3b61
+PODFILE CHECKSUM: 98b1a92c58b90c4383a1c48cc7d6d418c7e43c14
 
-COCOAPODS: 1.14.2
+COCOAPODS: 1.15.2
