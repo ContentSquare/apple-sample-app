@@ -1,13 +1,12 @@
 {
-  "originHash" : "e0eeadbd627276741d3fa8a02404c66c334abcefb33f6d3c4d92f893b20166b2",
   "pins" : [
     {
       "identity" : "apple-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/apple-sdk",
       "state" : {
-        "revision" : "d6ffa9007b254cce0f52b31f0a4192d9e5b08af2",
-        "version" : "0.5.0"
+        "revision" : "e4324b489283d7b5153d66280118378e02d5a2db",
+        "version" : "0.5.1"
       }
     },
     {
@@ -24,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "9f09f55713240cc12cc0b41f36fd1cd83389da62",
-        "version" : "4.40.0"
+        "revision" : "5399348079ab97469416946597b1679878c0cf39",
+        "version" : "4.40.1"
       }
     },
     {
@@ -74,5 +73,5 @@
       }
     }
   ],
-  "version" : 3
+  "version" : 2
 }
