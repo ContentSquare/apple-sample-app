@@ -1,12 +1,13 @@
 {
+  "originHash" : "e0eeadbd627276741d3fa8a02404c66c334abcefb33f6d3c4d92f893b20166b2",
   "pins" : [
     {
       "identity" : "apple-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/apple-sdk",
       "state" : {
-        "revision" : "e4324b489283d7b5153d66280118378e02d5a2db",
-        "version" : "0.5.1"
+        "revision" : "12a394777d96a083152db20623b82fec5a068aee",
+        "version" : "0.5.2"
       }
     },
     {
@@ -23,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "5399348079ab97469416946597b1679878c0cf39",
-        "version" : "4.40.1"
+        "revision" : "4c740305817ca2eb63209f3d9a25e9799f20130f",
+        "version" : "4.40.2"
       }
     },
     {
@@ -68,10 +69,10 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/heap/heap-swift-core-sdk.git",
       "state" : {
-        "revision" : "7d315b7c0218ab2f3aa57891748ebbdd7240d68b",
-        "version" : "0.8.0"
+        "revision" : "fc3b847b6ed4f057e30a74872d2a4d98bdbd5f36",
+        "version" : "0.8.1"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
