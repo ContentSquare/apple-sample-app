@@ -1,5 +1,5 @@
 import UIKit
-import Contentsquare
+import ContentsquareSDK
 
 struct Item
 {
@@ -43,7 +43,7 @@ class TransactionsViewController: UIViewController {
         cart.forEach { item in
             transactionValue += item.price
         }
-        Contentsquare.send(transaction: CustomerTransaction(id: "Transaction\(transactionCount)", value: transactionValue, currency: selectedCurrency))
+        CSQ.trackTransaction(Transaction(id: "Transaction\(transactionCount)", value: transactionValue, currency: selectedCurrency))
         transactionCount += 1
 
         cart.removeAll()

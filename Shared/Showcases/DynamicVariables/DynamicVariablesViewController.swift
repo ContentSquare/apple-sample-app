@@ -1,5 +1,5 @@
 import UIKit
-import Contentsquare
+import ContentsquareSDK
 
 enum AccountType: Int {
     case standard = 0
@@ -32,12 +32,13 @@ class DynamicVariablesViewController: UIViewController {
     //MARK: - Dynamic vars
 
     private func sendDynamicVariables() {
+        var dynamicVars = [DynamicVar]()
         // Are users more likely to tap on a yellow or a green button?
         let colorValue = testButtonColor.isEqual(UIColor.yellow) ? "yellow" : "green"
-        Contentsquare.send(dynamicVar: DynamicVar(key: "Button Color", value: colorValue))
+        CSQ.addDynamicVar(DynamicVar(key: "Button Color", value: colorValue))
         // Also send the user's age and his account type, to determine if it has an impact on the A/B test
-        Contentsquare.send(dynamicVar: DynamicVar(key: "User age", value: userAge))
+        CSQ.addDynamicVar(DynamicVar(key: "User age", value: userAge))
         let accountValue = userAccount == .standard ? "standard" : "premium"
-        Contentsquare.send(dynamicVar: DynamicVar(key: "User account", value: accountValue))
+        CSQ.addDynamicVar(DynamicVar(key: "User account", value: accountValue))
     }
 }

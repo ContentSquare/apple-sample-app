@@ -24,11 +24,11 @@
 		D03E1E0F27FF1088003BAB8D /* DynamicVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E0E27FF1088003BAB8D /* DynamicVariablesViewController.swift */; };
 		D03E1E1127FF108D003BAB8D /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E1027FF108D003BAB8D /* PrivacyViewController.swift */; };
 		D03E1E1327FF109B003BAB8D /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E1227FF109B003BAB8D /* TransactionsViewController.swift */; };
+		D0837B9B2D9EE9DF0098D083 /* ContentsquareSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D0837B9A2D9EE9DF0098D083 /* ContentsquareSDK */; };
 		D0DBD95427FEC524007D128F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DBD95327FEC524007D128F /* AppDelegate.swift */; };
 		D0DBD95627FEC524007D128F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DBD95527FEC524007D128F /* SceneDelegate.swift */; };
 		D0DBD95D27FEC525007D128F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DBD95C27FEC525007D128F /* Assets.xcassets */; };
 		D0DBD96027FEC525007D128F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DBD95E27FEC525007D128F /* LaunchScreen.storyboard */; };
-		EB11079E2C8BB580008DF7EA /* Contentsquare in Frameworks */ = {isa = PBXBuildFile; productRef = EB11079D2C8BB580008DF7EA /* Contentsquare */; };
 		FBAC399A2950840C00DCFCD4 /* ErrorAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC39992950840C00DCFCD4 /* ErrorAnalysisViewController.swift */; };
 		FBD8CCA62953597E006AA162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03E1DEA27FF0E74003BAB8D /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB11079E2C8BB580008DF7EA /* Contentsquare in Frameworks */,
+				D0837B9B2D9EE9DF0098D083 /* ContentsquareSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +226,7 @@
 			);
 			name = "SPM-sample-app";
 			packageProductDependencies = (
-				EB11079D2C8BB580008DF7EA /* Contentsquare */,
+				D0837B9A2D9EE9DF0098D083 /* ContentsquareSDK */,
 			);
 			productName = "SPM-sample-app";
 			productReference = D0DBD95027FEC524007D128F /* SPM-sample-app.app */;
@@ -257,7 +257,7 @@
 			);
 			mainGroup = D0DBD94727FEC524007D128F;
 			packageReferences = (
-				EB11079C2C8BB580008DF7EA /* XCRemoteSwiftPackageReference "apple-sdk" */,
+				D0837B992D9EE9DF0098D083 /* XCRemoteSwiftPackageReference "apple-sdk-prereleases" */,
 			);
 			productRefGroup = D0DBD95127FEC524007D128F /* Products */;
 			projectDirPath = "";
@@ -520,21 +520,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EB11079C2C8BB580008DF7EA /* XCRemoteSwiftPackageReference "apple-sdk" */ = {
+		D0837B992D9EE9DF0098D083 /* XCRemoteSwiftPackageReference "apple-sdk-prereleases" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ContentSquare/apple-sdk";
+			repositoryURL = "https://github.com/ContentSquare/apple-sdk-prereleases";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.5.2;
+				kind = exactVersion;
+				version = "1.0.0-rc.12";
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EB11079D2C8BB580008DF7EA /* Contentsquare */ = {
+		D0837B9A2D9EE9DF0098D083 /* ContentsquareSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EB11079C2C8BB580008DF7EA /* XCRemoteSwiftPackageReference "apple-sdk" */;
-			productName = Contentsquare;
+			package = D0837B992D9EE9DF0098D083 /* XCRemoteSwiftPackageReference "apple-sdk-prereleases" */;
+			productName = ContentsquareSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -1,5 +1,5 @@
 import UIKit
-import Contentsquare
+import ContentsquareSDK
 
 @available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -8,7 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
         // Handle incoming urls to monitor CS in-app activation
         if let url = URLContexts.first?.url {
-            Contentsquare.handle(url: url)
+            CSQ.handle(url: url)
         }
     }
 }

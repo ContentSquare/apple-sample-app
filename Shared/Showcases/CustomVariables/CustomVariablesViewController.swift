@@ -1,5 +1,5 @@
 import UIKit
-import Contentsquare
+import ContentsquareSDK
 
 enum BannerType: String {
     case carousel
@@ -27,7 +27,6 @@ class CustomVariablesViewController: UIViewController {
         let loggingCustomVar = CustomVar(index: 5,
                                          name: "user_login_status",
                                          value: userLogged ? "logged_in" : "logged_out")
-        Contentsquare.send(screenViewWithName: "CustomVariablesScreen",
-                           cvars: [bannerTypeCustomVar, loggingCustomVar])
+        CSQ.trackScreenview("CustomVariablesScreen", cvars: [bannerTypeCustomVar, loggingCustomVar])
     }
 }
