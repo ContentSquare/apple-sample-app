@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/apple-sdk-prereleases",
       "state" : {
-        "revision" : "5ce9a19b7254b70830f98df6b4aed94539aeebb2",
-        "version" : "1.0.0-rc.12"
+        "revision" : "527989d6155831e5ffb1e1eb363b8fb908a46674",
+        "version" : "1.0.0-rc.13"
       }
     },
     {

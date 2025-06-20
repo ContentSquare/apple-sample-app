@@ -525,7 +525,7 @@
 			repositoryURL = "https://github.com/ContentSquare/apple-sdk-prereleases";
 			requirement = {
 				kind = exactVersion;
-				version = "1.0.0-rc.12";
+				version = "1.0.0-rc.13";
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

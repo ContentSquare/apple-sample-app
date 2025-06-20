@@ -9,6 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         CSQ.debug.logLevel = .info
         CSQ.start()
+        CSQ.optIn()
         CSQ.setURLMaskingPatterns([
             "https://httpstatus-mgmt.eu-west-1.csq.fr/:status_code/person/:person_id/store/:store_id"
         ])
