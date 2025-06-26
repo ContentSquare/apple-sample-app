@@ -1,5 +1,5 @@
 {
-  "originHash" : "9a72991d2277843d6876b8d5cb1d8d502820cbcad39d5d7ee44b1e8826bb2a5d",
+  "originHash" : "644d37ec1ed078a99f67b8e157abd5fcc8fdd1d30844944c7a7f21a1872feb47",
   "pins" : [
     {
       "identity" : "apple-interim-bridge-sdk",
@@ -11,12 +11,12 @@
       }
     },
     {
-      "identity" : "apple-sdk-prereleases",
+      "identity" : "apple-sdk",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ContentSquare/apple-sdk-prereleases",
+      "location" : "https://github.com/ContentSquare/apple-sdk.git",
       "state" : {
-        "revision" : "527989d6155831e5ffb1e1eb363b8fb908a46674",
-        "version" : "1.0.0-rc.13"
+        "revision" : "e2526a363acbcaad8ad1e1252bd67699f584eecd",
+        "version" : "1.0.0"
       }
     },
     {

@@ -2,7 +2,7 @@ PODS:
   - ContentsquareInterimBridge (0.10.0):
     - CS_iOS_SDK (~> 4.42.1)
     - HeapSwiftCore (~> 0.8)
-  - ContentsquareSDK (1.0.0-rc.13):
+  - ContentsquareSDK (1.0.0):
     - ContentsquareInterimBridge (= 0.10.0)
     - CS_iOS_SDK (= 4.42.1)
     - HeapIOSAutocapture (= 0.8.0)
@@ -21,13 +21,12 @@ PODS:
     - CSSwiftProtobuf (= 1.28.2)
 
 DEPENDENCIES:
-  - ContentsquareSDK (= 1.0.0-rc.13)
+  - ContentsquareSDK (= 1.0.0)
 
 SPEC REPOS:
-  https://github.com/ContentSquare/prerelease-podspecs.git:
-    - ContentsquareSDK
   trunk:
     - ContentsquareInterimBridge
+    - ContentsquareSDK
     - CS_iOS_SDK
     - CSCrashReporter
     - CSSwiftProtobuf
@@ -37,7 +36,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   ContentsquareInterimBridge: dd197c49cc36b7d826b37e39b113a01b6fdfae1b
-  ContentsquareSDK: 91e5796d6d4fad23531a6ab96bc87ae57e119060
+  ContentsquareSDK: da5a9cc5be9f6602e963e1082b062f011906697f
   CS_iOS_SDK: 8a6b41315898adf2d56777dc66a0805bbbfe6c4d
   CSCrashReporter: bcd93ebf9abaf6e3d8ee4494ab0d630b6750d338
   CSSwiftProtobuf: beced9eecd504dbc1ef9b09e537c06300aed6631
@@ -45,6 +44,6 @@ SPEC CHECKSUMS:
   HeapNotificationAutocapture: bf4042231d73630ad2e180273cdfb9e4e457a39a
   HeapSwiftCore: 24aac202971d24b4429bf1f3cbce0eaa182a7f5f
 
-PODFILE CHECKSUM: 53f7f28591dd253bf69d5594d9f10aaeadde9c2e
+PODFILE CHECKSUM: 99a2261cd24f98c19d8240a83d0c9ee63b00f4bd
 
 COCOAPODS: 1.16.2
