@@ -69,7 +69,7 @@ class ErrorAnalysisViewController: UIViewController {
     }
 
     @IBAction private func sendUserIdentifier(_ sender: Any) {
-        CSQ.identify("john.appleseed")
+        CSQ.sendUserIdentifier("john.appleseed")
     }
 
     private func urlRequest(method: String, path: String = "") -> URLRequest {
