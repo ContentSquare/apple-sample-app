@@ -1,13 +1,22 @@
 {
-  "originHash" : "e0eeadbd627276741d3fa8a02404c66c334abcefb33f6d3c4d92f893b20166b2",
+  "originHash" : "644d37ec1ed078a99f67b8e157abd5fcc8fdd1d30844944c7a7f21a1872feb47",
   "pins" : [
+    {
+      "identity" : "apple-interim-bridge-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ContentSquare/apple-interim-bridge-sdk.git",
+      "state" : {
+        "revision" : "e45cb877f65229c855dde689b1a88a2aaeed29a2",
+        "version" : "0.10.0"
+      }
+    },
     {
       "identity" : "apple-sdk",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ContentSquare/apple-sdk",
+      "location" : "https://github.com/ContentSquare/apple-sdk.git",
       "state" : {
-        "revision" : "8299882650bae0cfe3bdd71e1856f74706410fed",
-        "version" : "0.6.1"
+        "revision" : "e2526a363acbcaad8ad1e1252bd67699f584eecd",
+        "version" : "1.0.0"
       }
     },
     {
@@ -20,12 +29,12 @@
       }
     },
     {
-      "identity" : "cs_ios_sdk",
+      "identity" : "cs_ios_sdk_dynamic",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
+      "location" : "https://github.com/ContentSquare/CS_iOS_SDK_DYNAMIC.git",
       "state" : {
-        "revision" : "7058d9d7535eac0a94d4aa39a160ecaf02cba7b0",
-        "version" : "4.41.3"
+        "revision" : "d5d337f3786066f087730830c803127ececb009c",
+        "version" : "4.42.1"
       }
     },
     {
@@ -47,15 +56,6 @@
       }
     },
     {
-      "identity" : "heap-ios-cs-integration-sdk",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/heap/heap-ios-cs-integration-sdk.git",
-      "state" : {
-        "revision" : "7cf5ce318b928757b819999be9f4ceee5237886b",
-        "version" : "0.8.0"
-      }
-    },
-    {
       "identity" : "heap-notification-autocapture-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/heap/heap-notification-autocapture-sdk.git",
@@ -69,8 +69,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/heap/heap-swift-core-sdk.git",
       "state" : {
-        "revision" : "fc3b847b6ed4f057e30a74872d2a4d98bdbd5f36",
-        "version" : "0.8.1"
+        "revision" : "411add8f9b2755090ee7984a470c517c3cd705e2",
+        "version" : "0.8.6"
       }
     }
   ],

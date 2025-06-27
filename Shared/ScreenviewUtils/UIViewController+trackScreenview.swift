@@ -1,10 +1,10 @@
 
 import UIKit
-import Contentsquare
+import ContentsquareSDK
 
 // We use this convenience extension to send screen views in view controllers.
 extension UIViewController {
     func trackScreenview(_ screenName: String) {
-        Contentsquare.send(screenViewWithName: screenName)
+        CSQ.trackScreenview(screenName)
     }
 }

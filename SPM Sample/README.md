@@ -7,11 +7,14 @@
 Apple's [documentation](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app) will show you how to add a dependency to your project with SPM.
 
 ## Running the app
-* Clone this [repository](https://github.com/ContentSquare/iOS-sample-app)
+* Clone this [repository](https://github.com/ContentSquare/apple-sample-app)
 * You should now be able to run the application
 * You should see logs from the SDK in the Xcode console or the Console app as below
 
-<pre>$ CSLIB ℹ️ Info: Contentsquare SDK v4.35.1 starting in app: com.your.bundle.identifier</pre>
+<pre>
+[INFO] CSQ 1.0.0 is starting Digital eXperience Analytics.
+CSLIB ℹ️ Info: Contentsquare SDK v4.42.1 starting in app: com.your.bundle.identifier
+</pre>
 
 <pre>💡 Quick tips: Contentsquare SDK autostarts by itself </pre>
 
@@ -35,10 +38,10 @@ Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen 
 
 - `Masking` to see how to use the different Contentsquare API masking methods in order to customize your personal information masking rules for Session Replay.
 
-- `Error Analysis` to test the Contentsquare Error Analysis SDK API.
+- `Error Analysis` to test the Contentsquare Error Analysis API.
 
 ## 📚 Docs
 
 If you wish to learn more about the Contentsquare SDK you can find the documentation [here](https://docs.contentsquare.com/ios/)
 
-If you wish to learn more about the Error Analysis SDK you can find the documentation [here](https://docs.contentsquare.com/ios-sdk-error-analysis/)
+If you wish to learn more about the Error Analysis you can find the documentation [here](https://docs.contentsquare.com/en/csq-sdk-ios/error-analysis/)

@@ -1,5 +1,5 @@
 import UIKit
-import Contentsquare
+import ContentsquareSDK
 
 class MaskingViewController: UIViewController {
 
@@ -27,10 +27,10 @@ class MaskingViewController: UIViewController {
             unmaskAll()
         case .maskImages:
             unmaskAll()
-            Contentsquare.mask(viewsOfType: UIImageView.self)
+            CSQ.mask(viewsOfType: UIImageView.self)
         case .unmaskPublicLabel:
             resetDefaultMasking()
-            Contentsquare.unmask(view: publicLabel)
+            CSQ.unmask(publicLabel)
         }
     }
 
@@ -44,13 +44,13 @@ class MaskingViewController: UIViewController {
 
     private func resetDefaultMasking() {
         defaultMaskedTypes.forEach {
-            Contentsquare.mask(viewsOfType: $0)
+            CSQ.mask(viewsOfType: $0)
         }
     }
 
     private func unmaskAll() {
         defaultMaskedTypes.forEach {
-            Contentsquare.unmask(viewsOfType: $0)
+            CSQ.unmask(viewsOfType: $0)
         }
     }
 }

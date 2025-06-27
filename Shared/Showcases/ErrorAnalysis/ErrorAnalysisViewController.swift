@@ -1,5 +1,5 @@
 
-import Contentsquare
+import ContentsquareSDK
 import UIKit
 
 /// This class showcases how to use Error Analysis to trace HTTP network errors
@@ -35,14 +35,14 @@ class ErrorAnalysisViewController: UIViewController {
     @IBAction private func manualMonitoring(_ sender: UIButton) {
         Task {
             let request: URLRequest = urlRequest(method: "GET")
-            let metric = HTTPMetric(request: request)
+            let metric = NetworkMetric(request: request)
             let session = URLSession(configuration: .default)
             let response = try? await session.data(for: request)
             if let httpResponse = response?.1 as? HTTPURLResponse {
                 metric.setStatusCode(httpResponse.statusCode)
                 printResponse(data: response?.0)
             }
-            metric.stop()
+            CSQ.trackNetworkMetric(metric)
         }
     }
 
@@ -69,7 +69,7 @@ class ErrorAnalysisViewController: UIViewController {
     }
 
     @IBAction private func sendUserIdentifier(_ sender: Any) {
-        Contentsquare.sendUserIdentifier("john.appleseed")
+        CSQ.sendUserIdentifier("john.appleseed")
     }
 
     private func urlRequest(method: String, path: String = "") -> URLRequest {
