@@ -11,7 +11,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         CSQ.start()
         CSQ.optIn()
         CSQ.setURLMaskingPatterns([
-            "https://httpstatus-mgmt.eu-west-1.csq.fr/:status_code/person/:person_id/store/:store_id"
+            "https://httpstatus-mgmt.eu-west-1.csq.io/:status_code/person/:person_id/store/:store_id"
         ])
         CSQ.metadata.onChange { metadata in
             print(metadata.sessionReplayURL?.absoluteString ?? "unknown")
