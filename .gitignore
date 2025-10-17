@@ -1,4 +1,7 @@
 Pods/
+**/Podfile.lock
+
+**/Package.resolved
 
 # Mac OS X
 *.DS_Store
